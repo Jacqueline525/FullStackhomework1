@@ -17,6 +17,12 @@ body {
     text-align: center; 
 }
 
+#welcome-text {
+    font-size: 18px;
+    color: deeppink;
+    margin-bottom: 20px;
+}
+
 /* Styling for labels, inputs, and button */
 label {
     display: block;
