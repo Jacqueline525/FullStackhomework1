@@ -1,0 +1,56 @@
+/* Styling for the body and calculator container */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 154, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+/* Styling for labels, inputs, and button */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #4cacaf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block; 
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+/* Styling for the result display */
+#result {
+    text-align: left; 
+    font-weight: bold;
+    color: darkcyan;
+    background-color: #e0e0e0; /* Background color for the result box */
+    padding: 10px; /* Padding for the result box */
+    border-radius: 8px; /* Border radius for rounded corners */
+    margin-top: 16px; /* Add margin at the top */
+}
